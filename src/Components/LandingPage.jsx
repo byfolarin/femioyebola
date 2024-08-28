@@ -31,7 +31,7 @@ const LandingPage = () => {
                         design, strategy, and technology.</p>
                 </div>
 
-                <button className='text-white mt-2 text-sm rounded bg-[#1A1A1A] px-2  py-2'>
+                <button className='text-white mt-2 mb-4 text-sm rounded bg-[#1A1A1A] px-2  py-2'>
                     Request Project
                 </button>
 

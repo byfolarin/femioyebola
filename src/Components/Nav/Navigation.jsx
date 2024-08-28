@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div className='font-interTight w-full flex items-end justify-between pr-[248px] pt-6 px-24 text-white' >
+    <div className='font-interTight w-full flex items-end justify-between pr-[248px] pt-6 py-4 px-24 text-white' >
       
 
       <div><h2 className='font-bold text-3xl'>femiOyebola.</h2></div>

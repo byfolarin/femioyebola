@@ -1,13 +1,13 @@
 import './App.css'
 import Navigation from './Components/Nav/Navigation'
-import Landing from 
+import LandingPage from './Components/LandingPage'
 
 function App() {
 
 
   return (
     <>
-     <Navigation />
+     <LandingPage />
     </>
   )
 }

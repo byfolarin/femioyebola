@@ -11,7 +11,7 @@ const Works = () => {
         <div className='grid grid-cols-2 gap-4 '>
                <div className='bg-slate-300 h-[400px] rounded'></div>
                <div className='bg-slate-300 h-[350px] rounded '></div>
-               <div className='bg-slate-300 h-[450px] rounded '></div>
+               <div className='bg-slate-300 col-span-2 h-[450px] rounded '></div>
         </div>
 
 

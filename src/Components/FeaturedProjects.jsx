@@ -13,6 +13,11 @@ const FeaturedProjects = () => {
                <div className='bg-slate-300 h-[450px] rounded '></div>
                <div className='bg-slate-300 h-[450px] rounded '></div>
         </div>
+
+
+        <div className='flex justify-end py-4 text-2xl'>
+            All Works
+        </div>
      
     </div>
   )

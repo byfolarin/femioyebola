@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Navigation = () => {
+const Navigation2 = () => {
   return (
-    <div className='font-interTight w-full flex items-end justify-between pr-[248px] py-4 px-8 text-white' >
-      
+    <div className='font-interTight w-full flex items-end justify-between pr-[248px] py-4 px-8 text-black' >
 
       <div><h2 className='font-bold text-3xl'>femiOyebola.</h2></div>
 
@@ -22,4 +21,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default Navigation2

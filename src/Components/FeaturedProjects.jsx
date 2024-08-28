@@ -2,7 +2,7 @@ import React from 'react'
 
 const FeaturedProjects = () => {
   return (
-    <div className='mx-6 font-interTight'>
+    <div className='mx-24 font-interTight'>
         <div>
               <h2 className='text-3xl py-6'>Featured Projects</h2>  
         </div>
@@ -15,7 +15,7 @@ const FeaturedProjects = () => {
         </div>
 
 
-        <div className='flex justify-end py-4 text-2xl'>
+        <div className='flex justify-end py-4 text-xl'>
             All Works
         </div>
      

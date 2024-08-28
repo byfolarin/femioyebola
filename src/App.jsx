@@ -4,6 +4,7 @@ import LandingPage from './Components/LandingPage'
 import FeaturedProjects from './Components/FeaturedProjects'
 import Section2 from './Components/Section2'
 import BlogSec from './Components/BlogSec'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
      <FeaturedProjects />
      <Section2 />
      <BlogSec />
+     <Footer />
     </>
   )
 }

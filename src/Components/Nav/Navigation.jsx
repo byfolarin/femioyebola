@@ -8,12 +8,12 @@ const Navigation = () => {
 
       <div className='w-[348px]'>
 
-      <div className='flex gap-8'>
-        <div>About</div>
-        <div>Projects</div>
-        <div>Contact</div>
-        <div>Thoughts</div>
-      </div>
+            <div className='flex gap-11'>
+                <div>About</div>
+                <div>Projects</div>
+                <div>Contact</div>
+                <div>Thoughts</div>
+            </div>
 
       </div>
 

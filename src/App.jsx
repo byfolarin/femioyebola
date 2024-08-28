@@ -3,6 +3,7 @@ import Navigation2 from './Components/Nav/Navigation2'
 import LandingPage from './Components/LandingPage'
 import FeaturedProjects from './Components/FeaturedProjects'
 import Section2 from './Components/Section2'
+import BlogSec from './Components/BlogSec'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <LandingPage />
      <FeaturedProjects />
      <Section2 />
+     <BlogSec />
     </>
   )
 }

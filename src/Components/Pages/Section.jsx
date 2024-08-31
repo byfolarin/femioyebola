@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Section = ({ children, navColor, className }) => {
+const Section = ({ children, className }) => {
   return (
-    <div data-section data-nav-color={navColor} className={className}>
+    <div data-section className={className}>
       {children}
     </div>
   );

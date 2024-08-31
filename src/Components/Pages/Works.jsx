@@ -4,8 +4,7 @@ import Section from './Section'
 const Works = () => {
   return (
     <div className='mx-16 font-interTight'>
-      <Section navColor="text-black" className="min-h-screen">
-        <div>
+          <Section className="min-h-screen">      <div>
           <h2 className='text-3xl mt-32 py-6'>All Works</h2>  
         </div>
 

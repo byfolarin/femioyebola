@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-// import Navigation2 from './Components/Nav/Navigation2'
+import StickyNavigation from './Components/Nav/StickyNavigation'
 import LandingPage from './Components/LandingPage'
 import FeaturedProjects from './Components/FeaturedProjects'
 import Section2 from './Components/Section2'
@@ -14,9 +14,7 @@ import Thoughts from './Components/Pages/Thoughts'
 function App() {
   return (
     <Router>
-      {/* <div className='fixed z-50'>
-        <Navigation2 />
-      </div> */}
+      <StickyNavigation />
       <Routes>
         <Route path="/" element={
           <>

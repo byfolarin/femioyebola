@@ -10,6 +10,7 @@ const Contact = () => {
 
 
       <div>
+        
         <p>
         Whether it's a conversation about all things design or 
         thinking about a potential project or opportunity, get in touch.
@@ -17,13 +18,17 @@ const Contact = () => {
 
         <div>
           <div>
-              <input type="text" name="" id="" />
-              <input type="text" name="" id="" />
+              <input type="text" name="" placeholder='Name' id="" />
+              <input type="text" name="" placeholder='Email' id="" />
           </div>
 
-          <input type="text" name="" id="" />
+          <div>
+              <input type="text" name="" placeholder='Message' id="" />
+          </div>
 
         </div>
+
+
       </div>
 
 

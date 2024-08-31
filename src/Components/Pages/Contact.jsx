@@ -10,7 +10,7 @@ const Contact = () => {
 
 
       <div>
-        
+
         <p>
         Whether it's a conversation about all things design or 
         thinking about a potential project or opportunity, get in touch.
@@ -29,6 +29,10 @@ const Contact = () => {
         </div>
 
 
+      </div>
+
+      <div>
+      <button>Send</button>
       </div>
 
 

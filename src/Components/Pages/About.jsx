@@ -8,7 +8,7 @@ const About = () => {
           I combine my experience in product and brand to solve problems, tell stories, and create compelling experiences.
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl">
-          I am Luca Derven, a Digital Designer & Art Director based in Toronto, Canada. With more than 10 years of experience in digital design and print for national and international clients such as Balea, Sensa, Apex Films and Filippe Monet. Currently working at Basic as a Digital Art Director.
+          I am Femi Oyebola, a Digital Designer & Art Director based in Toronto, Canada. With more than 10 years of experience in digital design and print for national and international clients such as Balea, Sensa, Apex Films and Filippe Monet. Currently working at Basic as a Digital Art Director.
         </p>
       </div>
     </div>

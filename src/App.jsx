@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import StickyNavigation from './Components/Nav/StickyNavigation'
+import Navigation from './Components/Nav/Navigation'    
 import LandingPage from './Components/LandingPage'
 import FeaturedProjects from './Components/FeaturedProjects'
 import Section2 from './Components/Section2'
@@ -14,7 +14,7 @@ import Thoughts from './Components/Pages/Thoughts'
 function App() {
   return (
     <Router>
-      <StickyNavigation />
+        <Navigation />
       <Routes>
         <Route path="/" element={
           <>

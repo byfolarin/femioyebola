@@ -8,9 +8,6 @@ const LandingPage = () => {
 
         
 
-        <div>
-         <Navigation />
-        </div>
 
         <div className='flex  justify-end pr-[235px]'>
 

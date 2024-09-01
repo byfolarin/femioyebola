@@ -32,7 +32,7 @@ function getTextColor(bgColor) {
   return whiteContrast > blackContrast ? 'text-white' : 'text-black';
 }
 
-const StickyNavigation = ({ initialColor = 'text-white' }) => {
+const StickyNavigation = ({ initialColor = 'text-black' }) => {
   const [textColor, setTextColor] = useState(initialColor);
 
   useEffect(() => {

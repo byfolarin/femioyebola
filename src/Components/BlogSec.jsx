@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogSec = () => {
   return (
-    <div className='mx-24 font-interTight'>
+    <div className='mx-16 font-interTight'>
         <div>
               <h2 className='text-3xl py-6'>Blog Section</h2>  
         </div>

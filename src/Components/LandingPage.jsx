@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation2 from './Nav/Navigation2'
+import Navigation from './Nav/Navigation'
 
 const LandingPage = () => {
   return (
@@ -9,7 +9,7 @@ const LandingPage = () => {
         
 
         <div>
-         <Navigation2 />
+         <Navigation />
         </div>
 
         <div className='flex  justify-end pr-[235px]'>

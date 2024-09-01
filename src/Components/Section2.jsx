@@ -26,7 +26,7 @@ const Section2 = () => {
 
                                 <h2 className='text-2xl'>
 
-                                (1) Strategy
+                                Strategy
 
                                 </h2>
 
@@ -41,7 +41,7 @@ const Section2 = () => {
 
                                     <h2 className='text-2xl'>
 
-                                    (2) Execution
+                                    Execution
 
                                     </h2>
 
@@ -56,7 +56,7 @@ const Section2 = () => {
 
                                     <h2 className='text-2xl '>
 
-                                    (3) Launch
+                                    Launch
 
                                     </h2>
 

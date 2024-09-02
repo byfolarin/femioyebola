@@ -5,20 +5,20 @@ import House3 from '../../src/assets/images/House3.jpeg'
 
 const FeaturedProjects = () => {
   return (
-    <div className='mx-16 font-interTight py-12 bg-white'>
-        <div>
-              <h2 className='text-3xl py-6'>Featured Projects</h2>  
-        </div>
+    <div className='mx-16 font-interTight py-12 bg-white relative z-[2]'>
+      <div>
+        <h2 className='text-3xl py-6'>Featured Projects</h2>  
+      </div>
 
-        <div className='grid grid-cols-3 gap-4'>
-          <ImageWithOverlay src={House1} projectName="Project 1" />
-          <ImageWithOverlay src={House2} projectName="Project 2" />
-          <ImageWithOverlay src={House3} projectName="Project 3" />
-        </div>
+      <div className='grid grid-cols-3 gap-4'>
+        <ImageWithOverlay src={House1} projectName="Project 1" />
+        <ImageWithOverlay src={House2} projectName="Project 2" />
+        <ImageWithOverlay src={House3} projectName="Project 3" />
+      </div>
 
-        <div className='flex justify-end py-4 text-xl'>
-            All Works
-        </div>
+      <div className='flex justify-end py-4 text-xl'>
+        All Works
+      </div>
     </div>
   )
 }

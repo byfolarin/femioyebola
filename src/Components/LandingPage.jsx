@@ -15,7 +15,9 @@ const LandingPage = () => {
    
       
                 <div className='w-[366px] py-[16px]'>
-                    <div className='w-full h-[266px] rounded flex justify-end bg-[#DCE0E6]'></div>
+                    <div className='w-full h-[266px] rounded flex justify-end bg-[#DCE0E6]'>
+                        
+                    </div>
                 </div>
 
 

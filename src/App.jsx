@@ -10,8 +10,36 @@ import Works from './Components/Pages/Works'
 import About from './Components/Pages/About'
 import Contact from './Components/Pages/Contact'
 import Thoughts from './Components/Pages/Thoughts'
+import Lenis from '@studio-freight/lenis'
+import { useEffect } from 'react'
+
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      direction: 'vertical',
+      gestureDirection: 'vertical',
+      smooth: true,
+      mouseMultiplier: 1,
+      smoothTouch: false,
+      touchMultiplier: 2,
+      infinite: false,
+    })
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+
+    return () => {
+      lenis.destroy()
+    }
+  }, [])
+
   return (
     <Router>
         <Navigation />

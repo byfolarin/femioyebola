@@ -1,5 +1,6 @@
 import React from 'react'
 import Navigation from './Nav/Navigation'
+import MrFemi from '../assets/images/MrFemi.jpg'
 
 const LandingPage = () => {
   return (
@@ -16,7 +17,7 @@ const LandingPage = () => {
       
                 <div className='w-[366px] py-[16px]'>
                     <div className='w-full h-[266px] rounded flex justify-end bg-[#DCE0E6]'>
-                        
+                        <img src={MrFemi} alt="" className='w-full h-full object-cover rounded' />
                     </div>
                 </div>
 

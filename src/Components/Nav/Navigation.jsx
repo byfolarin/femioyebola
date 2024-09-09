@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div className='font-interTight w-full flex items-end justify-between pr-[248px] pt-6 py-4 px-24 text-white bg-black sticky top-0 z-50'>
       <div>
-        <Link to="/" className='font-bold text-3xl'>femiOyebola.</Link>
+        <Link to="/" className='font-bold text-3xl'>Femi Oyebola</Link>
       </div>
 
       <div className='w-[348px]'>

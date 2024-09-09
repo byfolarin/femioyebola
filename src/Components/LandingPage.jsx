@@ -14,12 +14,17 @@ const LandingPage = () => {
 
             <div className='w-[370px]'>
    
-      
-                <div className='w-[366px] py-[16px]'>
-                    <div className='w-full h-[266px] rounded flex justify-end bg-[#DCE0E6]'>
-                        <img src={MrFemi} alt="" className='w-full h-full object-cover  rounded' />
-                    </div>
+            <div className='w-[366px] py-[16px]'>
+                <div className='w-full h-auto rounded flex justify-end bg-[#DEDEDE]'>
+                    <img 
+                        src={MrFemi} 
+                        alt="" 
+                        className='w-full object-contain rounded filter grayscale hover:filter-none transition-all duration-300' 
+                    />
                 </div>
+            </div>
+
+
 
 
                 <div>

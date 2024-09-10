@@ -7,7 +7,7 @@ const FeaturedProjects = () => {
   return (
     <div className='mx-16 font-interTight py-12 bg-white relative z-[2]'>
       <div>
-        <h2 className='text-3xl py-6'>Featured Projects</h2>  
+        <h2 className='text-3xl py-6'>Projects</h2>  
       </div>
 
       <div className='grid grid-cols-3 gap-4'>

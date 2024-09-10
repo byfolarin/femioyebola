@@ -34,13 +34,10 @@ const FeaturedProjects = () => {
           return (
 
             <motion.div 
-
               ref={ref} // Attach ref to motion div
-
               key={index} 
               initial={{ opacity: 0, y: 60 }} 
-              animate={inView ? { opacity: 1, y: 0 } : {}} // Animate only if in view
-
+              animate={inView ? { opacity: 1, y: 0 } : {}} // 
               transition={{ delay: index * 0.5, duration:0.5, ease: "easeInOut" }} 
             >
               <ImageWithOverlay src={image.src} projectName={image.projectName} />

@@ -1,26 +1,65 @@
 import React from 'react'
+
+import { motion, useInView } from 'framer-motion'; // Import useInView
+
 import House1 from '../../src/assets/images/House1.jpeg'
+
 import House2 from '../../src/assets/images/House2.jpeg'
+
 import House3 from '../../src/assets/images/House3.jpeg'
 
+
 const FeaturedProjects = () => {
-  return (
+
+  const images = [
+    { src: House1, projectName: "Project 1" },
+    { src: House2, projectName: "Project 2" },
+    { src: House3, projectName: "Project 3" },
+  ];
+
+
+ return (
     <div className='mx-16 font-interTight py-12 bg-white relative z-[2]'>
+
       <div>
         <h2 className='text-3xl py-6'>Projects</h2>  
       </div>
 
+
       <div className='grid grid-cols-3 gap-4'>
-        <ImageWithOverlay src={House1} projectName="Project 1" />
-        <ImageWithOverlay src={House2} projectName="Project 2" />
-        <ImageWithOverlay src={House3} projectName="Project 3" />
+        {images.map((image, index) => {
+          const ref = React.useRef(null); // Create a ref for the motion div
+          const inView = useInView(ref, { once: false }); // Check if in view
+
+          return (
+
+            <motion.div 
+
+              ref={ref} // Attach ref to motion div
+
+              key={index} 
+              initial={{ opacity: 0, y: 60 }} 
+              animate={inView ? { opacity: 1, y: 0 } : {}} // Animate only if in view
+
+              transition={{ delay: index * 0.9, ease: "easeInOut" }} 
+            >
+              <ImageWithOverlay src={image.src} projectName={image.projectName} />
+
+            </motion.div>
+
+          );
+
+        })}
       </div>
 
-      <div className='flex justify-end py-4 text-xl'>
+      <div className='flex cursor-pointer justify-end py-4 text-xl'>
+
         All Works
       </div>
     </div>
+
   )
+
 }
 
 const ImageWithOverlay = ({ src, projectName }) => (

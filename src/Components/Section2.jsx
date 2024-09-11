@@ -2,10 +2,10 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <div className='bg-black text-white font-interTight px-16'>
+    <div className='bg-black text-white font-interTight px-4 lg:px-16'>
 
 
-    <div className='w-[60%] py-24 '>
+    <div className=' lg:w-[60%] py-24 '>
 
             <h2 className='text-3xl'>
 
@@ -18,11 +18,11 @@ const Section2 = () => {
     </div>
     
 
-                    <div className='flex justify-end gap-11 pb-24'>
+              <div className='flex flex-col lg:flex-row justify-end gap-11 pb-24'>
 
                  
 
-                    <div className='w-[20%]'>
+                    <div className='lg:w-[20%]'>
 
                                 <h2 className='text-2xl'>
 
@@ -37,7 +37,7 @@ const Section2 = () => {
                     </div>
 
 
-                       <div className='w-[20%]'>
+                       <div className='lg:w-[20%]'>
 
                                     <h2 className='text-2xl'>
 
@@ -52,7 +52,7 @@ const Section2 = () => {
                                     </div>
 
 
-                                    <div className='w-[20%]'>
+                                    <div className='lg:w-[20%]'>
 
                                     <h2 className='text-2xl '>
 

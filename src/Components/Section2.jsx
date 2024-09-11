@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section2 = () => {
   return (
-    <div className='bg-black text-white font-interTight px-4 lg:px-16'>
+    <div className='bg-black text-white font-interTight px-2 lg:px-16'>
 
 
     <div className=' lg:w-[60%] py-24 '>

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white font-interTight px-24'>
+    <div className='bg-black text-white font-interTight px-2 lg:px-24'>
 
 
-    <div className='w-[60%] py-8 '>
+    <div className='lg:w-[60%] py-8 '>
 
             <h2 className='text-3xl'>
                 Let’s make something together
@@ -14,7 +14,7 @@ const Footer = () => {
 
     </div>
 
-    <div className='grid grid-cols-4 justify-between py-8'>
+    <div className='grid grid-cols-2 lg:grid-cols-4 justify-between py-8'>
 
               <div>
                 <ul>

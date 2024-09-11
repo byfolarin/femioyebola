@@ -3,9 +3,9 @@ import House1 from '../../assets/images/House1.jpeg'
 
 const About = () => {
   return (
-    <div className="bg-black pt-32 px-16 text-white min-h-screen flex flex-col font-interTight">
+    <div className="bg-black pt-32 px-2 lg:px-16 text-white min-h-screen flex flex-col font-interTight">
       <div className="max-w-4xl">
-        <h1 className="text-4xl w-[70%] leading-tight mb-8">
+        <h1 className="text-4xl lg:w-[70%] leading-tight mb-8">
           I combine my experience in product and brand to solve problems, tell stories, and create compelling experiences.
         </h1>
         <p className="text-lg md:text-xl text-gray-400 max-w-2xl">

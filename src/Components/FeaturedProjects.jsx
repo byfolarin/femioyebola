@@ -26,7 +26,7 @@ const FeaturedProjects = () => {
       </div>
 
 
-      <div className='grid grid-cols-3 gap-4'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
         {images.map((image, index) => {
           const ref = React.useRef(null); // Create a ref for the motion div
           const inView = useInView(ref, { once: false }); // Check if in view

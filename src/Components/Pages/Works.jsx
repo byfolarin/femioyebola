@@ -8,23 +8,21 @@ import House5 from '../../../src/assets/images/House5.jpeg'
 
 const Works = () => {
   return (
-    <div className='mx-16 font-interTight'>
+    <div className='mx-2 lg:mx-16 font-interTight'>
       <Section className="min-h-screen text-black">
         <div>
           <h2 className='text-3xl mt-32 py-6'>All Works</h2>  
         </div>
 
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
           <ImageWithOverlay src={House1} projectName="Project 1" />
           <ImageWithOverlay src={House2} projectName="Project 2" />
-          <ImageWithOverlay src={House3} projectName="Project 3" className="col-span-2" />
+          <ImageWithOverlay src={House3} projectName="Project 3" className="lg:col-span-2" />
           <ImageWithOverlay src={House4} projectName="Project 4" />
           <ImageWithOverlay src={House5} projectName="Project 5" />
         </div>
 
-        <div className='flex justify-end py-4 text-xl'>
-          View All
-        </div>
+       
       </Section>
     </div>
   )

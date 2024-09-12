@@ -34,7 +34,9 @@ const Footer = () => {
               </div>
 
 
-         
+
+
+     
               <div>
                 <ul>
                   <li>hello@femiOyebola</li>
@@ -44,10 +46,9 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div>
+              <div className='text-nowrap'>
                 Femi Oyebola 2024
               </div>
-          
 
             </div>
     

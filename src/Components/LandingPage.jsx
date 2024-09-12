@@ -10,7 +10,7 @@ const LandingPage = () => {
         
 
 
-        <div className='flex justify-center  lg:justify-end px-6 lg:pr-[235px]'>
+        <div className='flex justify-center  lg:justify-end px-2 lg:pr-[235px]'>
 
             <div className='w-full lg:w-[370px]'>
    

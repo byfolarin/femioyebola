@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navigation = () => {
   return (
     <div className='font-interTight w-full flex items-end justify-between lg:pr-[248px] lg:pt-6 py-4 lg:py-4 px-2 lg:px-24 text-white bg-black sticky top-0 z-50'>
-      <div>
+           <div className='whitespace-nowrap'>
         <Link to="/" className='font-bold text-3xl text-nowrap'>Femi Oyebola</Link>
       </div>
 

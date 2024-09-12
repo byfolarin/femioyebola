@@ -14,9 +14,9 @@ const Navigation = () => {
         <Link to="/" className='font-bold text-3xl text-nowrap'>Femi Oyebola</Link>
       </div>
 
-      <div className='lg:hidden'>
-        <button onClick={toggleMenu} className='text-white'>
-          {isOpen ? 'Close' : 'Menu'}
+      <div className='lg:hidden flex justify-end'>
+        <button onClick={toggleMenu} className='text-white font-interTight flex text-base'>
+          {isOpen ? 'CLOSE' : 'MENU'}
         </button>
       </div>
 

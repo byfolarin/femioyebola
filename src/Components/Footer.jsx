@@ -14,7 +14,7 @@ const Footer = () => {
 
     </div>
 
-    <div className='grid grid-cols-2 lg:grid-cols-4 justify-between py-8'>
+    <div className='grid grid-cols-2 grid-rows-2 lg:grid-cols-4 justify-between py-8'>
 
               <div>
                 <ul>

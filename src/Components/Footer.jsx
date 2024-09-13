@@ -46,9 +46,9 @@ const Footer = () => {
                 </ul>
               </div>
 
-              {/* <div className='text-nowrap'>
+              <div className='text-nowrap'>
                 Femi Oyebola 2024
-              </div> */}
+              </div>
 
             </div>
     

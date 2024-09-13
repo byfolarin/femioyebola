@@ -39,14 +39,14 @@ const Navigation = () => {
         </button>
       </div>
 
-      {/* <div className={`lg:w-[348px] ${isOpen ? 'block' : 'hidden'} lg:block`}>
+      <div className={`lg:w-[348px] ${isOpen ? 'block' : 'hidden'} lg:block`}>
         <div className='lg:grid hidden lg:grid-cols-4 gap-11'>
           <Link to="/about">About</Link>
           <Link to="/works">Projects</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/thoughts">Thoughts</Link>
         </div>
-      </div> */}
+      </div>
 
       {isOpen && (
         <div className='lg:hidden flex flex-col items-start absolute top-16 left-0 w-full bg-black text-white'>
